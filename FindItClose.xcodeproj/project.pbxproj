@@ -14,13 +14,17 @@
 		88D65F311973AEE000E8E812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D65F301973AEE000E8E812 /* main.m */; };
 		88D65F351973AEE000E8E812 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D65F341973AEE000E8E812 /* AppDelegate.m */; };
 		88D65F381973AEE000E8E812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D65F361973AEE000E8E812 /* Main.storyboard */; };
-		88D65F3B1973AEE000E8E812 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D65F3A1973AEE000E8E812 /* ViewController.m */; };
 		88D65F3D1973AEE100E8E812 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D65F3C1973AEE100E8E812 /* Images.xcassets */; };
 		88D65F441973AEE100E8E812 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D65F431973AEE100E8E812 /* XCTest.framework */; };
 		88D65F451973AEE100E8E812 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D65F241973AEE000E8E812 /* Foundation.framework */; };
 		88D65F461973AEE100E8E812 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D65F281973AEE000E8E812 /* UIKit.framework */; };
 		88D65F4E1973AEE100E8E812 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88D65F4C1973AEE100E8E812 /* InfoPlist.strings */; };
 		88D65F501973AEE100E8E812 /* FindItCloseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D65F4F1973AEE100E8E812 /* FindItCloseTests.m */; };
+		88D65F5B1973AF7800E8E812 /* FindTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D65F5A1973AF7800E8E812 /* FindTableViewController.m */; };
+		88D65F5E1973AF9C00E8E812 /* DisplayWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D65F5D1973AF9C00E8E812 /* DisplayWebViewController.m */; };
+		88D65F601973CCA100E8E812 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D65F5F1973CCA100E8E812 /* CoreLocation.framework */; };
+		88D65F621973CCA500E8E812 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D65F611973CCA500E8E812 /* MapKit.framework */; };
+		88D65F651973CCD500E8E812 /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D65F641973CCD500E8E812 /* MapPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +49,20 @@
 		88D65F331973AEE000E8E812 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88D65F341973AEE000E8E812 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		88D65F371973AEE000E8E812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		88D65F391973AEE000E8E812 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		88D65F3A1973AEE000E8E812 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		88D65F3C1973AEE100E8E812 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		88D65F421973AEE100E8E812 /* FindItCloseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindItCloseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D65F431973AEE100E8E812 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		88D65F4B1973AEE100E8E812 /* FindItCloseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FindItCloseTests-Info.plist"; sourceTree = "<group>"; };
 		88D65F4D1973AEE100E8E812 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		88D65F4F1973AEE100E8E812 /* FindItCloseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindItCloseTests.m; sourceTree = "<group>"; };
+		88D65F591973AF7800E8E812 /* FindTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindTableViewController.h; sourceTree = "<group>"; };
+		88D65F5A1973AF7800E8E812 /* FindTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindTableViewController.m; sourceTree = "<group>"; };
+		88D65F5C1973AF9C00E8E812 /* DisplayWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayWebViewController.h; sourceTree = "<group>"; };
+		88D65F5D1973AF9C00E8E812 /* DisplayWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayWebViewController.m; sourceTree = "<group>"; };
+		88D65F5F1973CCA100E8E812 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		88D65F611973CCA500E8E812 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		88D65F631973CCD500E8E812 /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		88D65F641973CCD500E8E812 /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D65F621973CCA500E8E812 /* MapKit.framework in Frameworks */,
+				88D65F601973CCA100E8E812 /* CoreLocation.framework in Frameworks */,
 				88D65F271973AEE000E8E812 /* CoreGraphics.framework in Frameworks */,
 				88D65F291973AEE000E8E812 /* UIKit.framework in Frameworks */,
 				88D65F251973AEE000E8E812 /* Foundation.framework in Frameworks */,
@@ -101,6 +113,8 @@
 		88D65F231973AEE000E8E812 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				88D65F611973CCA500E8E812 /* MapKit.framework */,
+				88D65F5F1973CCA100E8E812 /* CoreLocation.framework */,
 				88D65F241973AEE000E8E812 /* Foundation.framework */,
 				88D65F261973AEE000E8E812 /* CoreGraphics.framework */,
 				88D65F281973AEE000E8E812 /* UIKit.framework */,
@@ -115,8 +129,12 @@
 				88D65F331973AEE000E8E812 /* AppDelegate.h */,
 				88D65F341973AEE000E8E812 /* AppDelegate.m */,
 				88D65F361973AEE000E8E812 /* Main.storyboard */,
-				88D65F391973AEE000E8E812 /* ViewController.h */,
-				88D65F3A1973AEE000E8E812 /* ViewController.m */,
+				88D65F591973AF7800E8E812 /* FindTableViewController.h */,
+				88D65F5A1973AF7800E8E812 /* FindTableViewController.m */,
+				88D65F5C1973AF9C00E8E812 /* DisplayWebViewController.h */,
+				88D65F5D1973AF9C00E8E812 /* DisplayWebViewController.m */,
+				88D65F631973CCD500E8E812 /* MapPoint.h */,
+				88D65F641973CCD500E8E812 /* MapPoint.m */,
 				88D65F3C1973AEE100E8E812 /* Images.xcassets */,
 				88D65F2B1973AEE000E8E812 /* Supporting Files */,
 			);
@@ -249,9 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88D65F3B1973AEE000E8E812 /* ViewController.m in Sources */,
+				88D65F5E1973AF9C00E8E812 /* DisplayWebViewController.m in Sources */,
+				88D65F5B1973AF7800E8E812 /* FindTableViewController.m in Sources */,
 				88D65F351973AEE000E8E812 /* AppDelegate.m in Sources */,
 				88D65F311973AEE000E8E812 /* main.m in Sources */,
+				88D65F651973CCD500E8E812 /* MapPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
